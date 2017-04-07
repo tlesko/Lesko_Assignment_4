@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+.header {
+  background: rgb(83,111,128);
+  left: 0;
+  position: fixed;
+  top: 0;
+  -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.54, 0.06, 0.55, 0.97);
+          transition: transform 0.4s cubic-bezier(0.54, 0.06, 0.55, 0.97);
+  width: 100%;
+  z-index: 1000; 
+margin-bottom: 8em;}
+
+.header .logo {
+  background: rgb(83,111,128);
+  display: block;
+  float: left;
+  height: 60px;
+  position: relative;
+  width: 76px;
+  z-index: 1001;
+  margin: auto; }
+
+.logo {
+  width: 210px;
+  padding: 0 10px; }
+
+.header.unit .logo {
+  padding-top: .2em;
+  height: 2em;
+  width: 2em; } 
+
+.logo img {
+    display: none; }
+    
+.header.unit .logo img {
+  height: 45px;
+  width: 45px;
+  display: block; } }
+
+ a:hover, a:active {
+  background-color: lightblue;
+  }
+
+  .nav-bar {
+  list-style-type: none;
+text-align: center;
+display: inline;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: rgb(83,111,128);
+
+  display: block;
+  padding: 8px; }
+  .nav-bar li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: rgb(83,111,128);
+  float: right;
+  display: block;
+  padding: 8px; }
+}
+
+@media only screen and (min-device-width: 500px) and (min-width: 500px) {
+.nav-bar li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: rgb(83,111,128);
+  float: right;
+  display: block;
+  padding: 8px; }
+}
+
+
+
+.Contact-Button-Bottom a:link, a:visited {
+  background-color: rgb(20,153, 230);
+  color: rgb(255,199,16);
+  padding: 4px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  float: right;
+  margin-right: 50px; }
+
+h1 {
+  line-height: 2em; 
+  font-size: 2em;
+  color: rgb(83, 111, 128);
+  text-transform: uppercase;
+  font-weight: bold;
+  text-rendering: optimizelegibility;
+  text-align: center; }
+
+h2 {
+  line-height: 52px; 
+  font-size: 1.5em;
+  color: rgb(83, 111, 128);
+  text-transform: uppercase;
+  font-weight: bold;
+  text-rendering: optimizelegibility; }
+
+a {
+  color: rgb(255,199,16);
+  text-decoration: none; }
+
+.footer {
+  background: rgb(83,111,128);
+  padding: 30px 0;
+  text-align: center; }
